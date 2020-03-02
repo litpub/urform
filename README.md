@@ -10,7 +10,7 @@ A terraform repository to bring up a planet on a Digital Ocean droplet. The easi
 
 ## Usage
 
-Terraform will create a Digital Ocean instance for you, install Urbit, and initialize your pier with the keyfile you provide. Urbit will run inside of a `screen` session named `urbit`.
+Terraform will create a Digital Ocean instance for you, install Urbit, and initialize your pier with the keyfile you provide. Urbit will run inside of a `screen` session named `urbit`. **Important**: By default, we assume your SSH keys exist at `~/.ssh/id_rsa.pub` and `~/.ssh/id_rsa` - if this isn't true, please see the customization options section below.
 
 1. Clone the repository
 2. Install terraform (>= 0.12)
